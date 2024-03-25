@@ -6,7 +6,6 @@ import Projects from './coponents/projects'
 import Contacts from './coponents/contacts'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

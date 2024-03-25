@@ -20,7 +20,7 @@ function Nav() {
             <div onClick={handleHam}>{isHam?<GiHamburgerMenu />:<ImCross />}</div>
             
         </nav>
-        {!isHam ? <Hamburger/> : <></>}
+        {!isHam ? <Hamburger setisHam={setisHam} isHam= {isHam}/> : <></>}
     </>
     
   )
